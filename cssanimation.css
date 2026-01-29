@@ -1,0 +1,120 @@
+html {
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: background-ani 30s linear infinite;
+}
+
+@keyframes background-ani {
+  0%   {background-color:grey;}
+  50%  {background-color:whitesmoke;}
+  100% {background-color:grey;}
+}
+
+
+h1 {
+text-align: center;
+margin:auto;
+font-size: 100px;
+}
+
+#logo {
+height: 100px;
+width: 100px;
+position: absolute;
+top: 5px;
+right: 5px;
+animation: logo-ani 1s linear;
+}
+
+@keyframes logo-ani {
+    0% {top:2000px;}
+    100% {top:5px;}
+}
+
+#slide1 {
+width: 300px;
+margin-left: 450px;
+}
+
+#slide1 p {
+    text-align: center;
+    font-size: 60px;
+}
+
+#slide1 img {
+width: 500px;
+filter:blur(10px);
+transition: 1s all;
+}
+
+#slide1:hover img {
+filter:blur(0px);
+border: 5px solid black;
+width: 800px;
+}
+
+#slide2 {
+width: 300px;
+margin-left: 450px;
+}
+
+#slide2 p{
+    text-align: center;
+    font-size: 60px;
+}
+
+#slide2 img {
+width: 500px;
+filter:blur(10px);
+transition: 1s all;
+}
+
+#slide2:hover img {
+filter:blur(0px);
+border: 5px solid black;
+width: 800px;
+}
+
+#slide3 {
+width: 300px;
+margin-left: 450px;
+}
+
+#slide3 p {
+    text-align: center;
+    font-size: 60px;
+}
+
+#slide3 img {
+width: 500px;
+filter:blur(10px);
+transition: 1s all;
+}
+
+#slide3:hover img {
+filter:blur(0px);
+border: 5px solid black;
+width: 800px;
+}
+
+#slide4 {
+width: 300px;
+margin-left: 450px;
+}
+
+#slide4 p {
+    text-align: center;
+    font-size: 60px;
+}
+
+#slide4 img {
+width: 500px;
+filter:blur(10px);
+transition: 1s all;
+}
+
+#slide4:hover img {
+filter:blur(0px);
+border: 5px solid black;
+width: 800px;
+}
