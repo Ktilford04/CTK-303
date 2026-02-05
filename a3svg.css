@@ -1,0 +1,73 @@
+#svg {
+    width: 500px;
+    margin:auto;
+}
+
+#eyer {
+    transition: 1s all;
+    transform-origin: center;
+}
+
+#eyer:hover {
+    fill: red;
+    color: red;
+    scale: 130%;
+}
+
+#eyel {
+    transition: 1s all;
+    transform-origin: center;
+}
+
+#eyel:hover {
+    fill: red;
+    color: red;
+    scale: 130%;
+}
+
+#eyebrows {
+    animation: eyebrows 1s linear;
+}
+
+@keyframes eyebrows {
+    0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+#nose {
+    animation: nose 3s linear;
+    transform-origin: center;
+    transition: 500ms all
+}
+
+#nose:hover {
+    animation: nosehover 500ms linear infinite;
+}
+
+@keyframes nosehover {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+@keyframes nose {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#hat {
+    animation: hat 3s linear;
+    transition: 2s all;
+}
+
+#hat:hover {
+    opacity: 0;
+}
+
+@keyframes hat {
+    0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+#mouth {
+    animation: mouth 2s linear
+}
