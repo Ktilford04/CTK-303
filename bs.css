@@ -1,0 +1,48 @@
+body {
+    background-color: beige;
+}
+
+
+.bgcolor {
+  background-color: #f4f4f4;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    align-items: center;
+}
+
+h2 {
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+    margin: 1rem;
+}
+
+ nav ul li {
+    display: inline;
+    text-align: center;
+ }
+
+ header {
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-top: none;
+ }
+
+ footer {
+     background-color: lightcoral;
+     border: 2px solid black;
+     border-bottom: none;
+     text-align: center;
+ }
